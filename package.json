@@ -1,0 +1,17 @@
+{
+  "name": "tellmommy-services",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.181.0"
+  }
+}
