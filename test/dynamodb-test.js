@@ -56,3 +56,18 @@ describe('database', function() {
   });
 });
 
+describe('database', function() {
+  describe('#get', function() {
+    it('should return not found when item does not exist', function(done) {
+      database.get(tableName, primaryKeyName, primaryKey, rangeKeyName, rangeKey, objectName, function(err, result) {
+        if (err) {
+            assert.equal(err, "Not Found");
+            done();
+        } else {
+            done("Expected error, but got result.");
+        }
+      });
+    });
+  });
+});
+

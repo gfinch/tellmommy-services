@@ -12,6 +12,7 @@
   },
   "description": "",
   "dependencies": {
-    "aws-sdk": "^2.181.0"
+    "aws-sdk": "^2.181.0",
+    "md5": "^2.2.1"
   }
 }
